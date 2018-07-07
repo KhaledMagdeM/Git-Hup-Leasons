@@ -1,0 +1,59 @@
+
+/* do color or any propertis for the first span from p from div */
+
+/*
+div p span:first-child{
+    color:blue
+*/
+
+/* do color or any propertis for  span from fisrt p from div */
+            
+/*           
+div p:first-child span{
+    color: blue
+}
+*/
+
+/* do color or any propertis for first span from fisrt p from div*/ /*
+div p:first-child span:first-child{
+    color: blue
+}
+
+span{
+    display: block
+}
+*/
+
+/* نكتب جمله او نضع شئ قبل العنصر عن طريق السي اس اس دون التاثير على المحتوي واي خاصيه تكون للجمله المكتوبه عن طريق السي اس اس */ 
+/*
+p::before{
+    content: "hellow ";
+    color: dodgerblue
+}
+
+p::after{
+    content: " >";
+     color: blue
+}
+*/
+
+/* by attributes we can do propertis for any link or input or image or any thing have attributes*/
+/*
+a[href="https://www.w3schools.com/cssref/tryit.asp?filename=trycss_content"]{
+    color: blue
+}
+*/
+
+                                    /* الدرس الاخير ال29 */ 
+
+
+
+
+
+
+
+
+
+
+
+

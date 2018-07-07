@@ -1,0 +1,12 @@
+                        /* content درس ال23 */
+p:after{
+    content: " - hi"
+}
+
+h1::after{
+    content: "- hi"
+}
+
+div::before{
+    content: " that  "
+}

@@ -1,0 +1,646 @@
+/* الدرس من 23*/
+
+
+/* Animation */
+
+/*
+*{
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+div {
+    width: 100px;
+    height: 100px;
+    background: #f00;
+    animation: coloring 7s 5 linear;
+
+}
+
+/* for chrom */
+
+/*
+@-webkit-keyframes coloring {
+    0% {
+        background: #f00;
+    }
+    
+    50% {
+        background-color:blue
+    }
+    
+    100% {
+        background-color:#f00
+    }
+}
+
+
+/* for opera */
+
+/*
+@-o-keyframes coloring {
+    0% {
+        background: #f00;
+    }
+    
+    50% {
+        background-color:blue
+    }
+    
+    100% {
+        background-color:#f00
+    }
+}
+
+/* for firefox */
+/*
+@-moz-keyframes coloring {
+    0% {
+        background: #f00;
+    }
+    
+    50% {
+        background-color:blue
+    }
+    
+    100% {
+        background-color:#f00
+    }
+}
+
+/* for IE*/
+/*
+@-ms-keyframes coloring {
+   0% {
+        background: #f00;
+    }
+    
+    50% {
+        background-color:blue
+    }
+    
+    100% {
+        background-color:#f00
+    }
+}
+
+@keyframes coloring {
+    
+    0% {
+        background: #f00;
+    }
+    
+    50% {
+        background-color:blue
+    }
+    
+    100% {
+        background-color: forestgreen
+    }
+}
+*/
+
+
+/*/////////////////////////////////////////////////////////////////////////////*/
+
+
+/* Animation */
+
+/*
+*{
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+div {
+    width: 100px;
+    height: 100px;
+    background: #f00;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    -webkit-animation: moving 3.5s 2 linear;
+    -o-animation: moving 3.5s 2 linear;
+    -moz-animation: moving 3.5s 2 linear;
+    -ms-animation: moving 3.5s 2 linear;
+    animation: moving 3.5s 2 linear;
+
+}
+
+
+.second {
+    background-color: aqua
+    -webkit-animation: moving 3s 2 linear;
+    -o-animation: moving 3s 2 linear;
+    -moz-animation: moving 3s 2 linear;
+    -ms-animation: moving 3.8s 2 linear;
+    animation: moving 3.8s 2 linear;
+}
+
+
+
+
+@-webkit-keyframes moving {
+    0% {
+        top: 20px;
+        left: 20px;
+        border-radius: 0%
+    }
+    
+    25% {
+        top: 20px;
+        left: 300px;
+        border-radius: 50%
+    }
+    
+    50% {
+        top: 200px;
+        left: 300px;
+        border-radius: 100%
+    }
+    
+    75% {
+        top: 200px;
+        left: 20px;
+        border-radius: 50%
+    }
+    
+    100% {
+        top: 20px;
+        left: 20px;
+        border-radius: 0%
+    }
+}
+
+
+
+
+
+@-o-keyframes moving {
+    0% {
+        top: 20px;
+        left: 20px
+    }
+    
+    25% {
+        top: 20px;
+        left: 300px;
+    }
+    
+    50% {
+        top: 200px;
+        left: 300px;
+    }
+    
+    75% {
+        top: 200px;
+        left: 20px;
+    }
+    
+    100% {
+        top: 20px;
+        left: 20px   
+    }
+}
+
+
+
+
+@-moz-keyframes moving {
+    0% {
+        top: 20px;
+        left: 20px
+    }
+    
+    25% {
+        top: 20px;
+        left: 300px;
+    }
+    
+    50% {
+        top: 200px;
+        left: 300px;
+    }
+    
+    75% {
+        top: 200px;
+        left: 20px;
+    }
+    
+    100% {
+        top: 20px;
+        left: 20px   
+    }
+}
+
+
+
+@-ms-keyframes moving {
+   0% {
+        top: 20px;
+        left: 20px
+    }
+    
+    25% {
+        top: 20px;
+        left: 300px;
+    }
+    
+    50% {
+        top: 200px;
+        left: 300px;
+    }
+    
+    75% {
+        top: 200px;
+        left: 20px;
+    }
+    
+    100% {
+        top: 20px;
+        left: 20px   
+    }
+}
+
+@keyframes moving {
+    
+    0% {
+        top: 20px;
+        left: 20px;
+        border-radius: 0%
+    }
+    
+    25% {
+        top: 20px;
+        left: 300px;
+        border-radius: 50%
+    }
+    
+    50% {
+        top: 200px;
+        left: 300px;
+        border-radius: 100%
+    }
+    
+    75% {
+        top: 200px;
+        left: 20px;
+        border-radius: 50%
+    }
+    
+    100% {
+        top: 20px;
+        left: 20px;
+        border-radius: 0%
+    }
+}
+*/
+
+/*/////////////////////////////////////////////////////////////////////////////*/
+
+
+/* Animation leacon 40*/
+
+/*
+*{
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+div {
+    width: 100px;
+    height: 100px;
+    background: #f00;
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    -webkit-animation: moving 20s 2 linear;
+    -o-animation: moving 20s 2 linear;
+    -moz-animation: moving 20s 2 linear;
+    -ms-animation: moving 20s 2 linear;
+    animation: moving 20s 2 linear;
+
+}
+
+
+
+@-webkit-keyframes moving {
+    0%, 100% {
+        top: 20px
+    }
+    
+    5% {
+        top: 400px;
+        
+    }
+    
+    10% {
+        top: 200px;
+        
+    }
+    
+    15% {
+        top: 800px;
+        
+    }
+    
+    20% {
+        top: 600px;
+        
+    }
+    
+    25% {
+        top: 1000px;
+        
+    }
+    
+    30% {
+        top: 500px;
+        
+    }
+    
+    35% {
+        top: 900px;
+        
+    }
+    
+    40% {
+        top: 300px;
+        
+    }
+    
+    45% {
+        top: 600px;
+        
+    }
+    
+    50% {
+        top: 200px;
+        
+    }
+    
+    55% {
+        top: 400px;
+        
+    }
+    
+    60% {
+        top: 20px;
+        
+    }
+}
+
+
+
+
+
+@-o-keyframes moving {
+    0%, 100% {
+        top: 20px;
+        left: 20px;
+        border-radius: 0%
+    }
+    
+    25% {
+        top: 20px;
+        left: 300px;
+        border-radius: 50%
+    }
+    
+    50% {
+        top: 200px;
+        left: 300px;
+        border-radius: 100%
+    }
+    
+    75% {
+        top: 200px;
+        left: 20px;
+        border-radius: 50%
+    }
+}
+
+
+
+
+@-moz-keyframes moving {
+    0%, 100% {
+        top: 20px;
+        left: 20px;
+        border-radius: 0%
+    }
+    
+    25% {
+        top: 20px;
+        left: 300px;
+        border-radius: 50%
+    }
+    
+    50% {
+        top: 200px;
+        left: 300px;
+        border-radius: 100%
+    }
+    
+    75% {
+        top: 200px;
+        left: 20px;
+        border-radius: 50%
+    }
+}
+
+
+
+@-ms-keyframes moving {
+   0%, 100% {
+        top: 20px;
+        left: 20px;
+        border-radius: 0%
+    }
+    
+    25% {
+        top: 20px;
+        left: 300px;
+        border-radius: 50%
+    }
+    
+    50% {
+        top: 200px;
+        left: 300px;
+        border-radius: 100%
+    }
+    
+    75% {
+        top: 200px;
+        left: 20px;
+        border-radius: 50%
+    }
+}
+
+@keyframes moving {
+    
+    0%, 100% {
+        top: 20px
+    }
+    
+    5% {
+        top: 400px;
+        
+    }
+    
+    10% {
+        top: 200px;
+        
+    }
+    
+    15% {
+        top: 800px;
+        
+    }
+    
+    20% {
+        top: 600px;
+        
+    }
+    
+    25% {
+        top: 1000px;
+        
+    }
+    
+    30% {
+        top: 500px;
+        
+    }
+    
+    35% {
+        top: 900px;
+        
+    }
+    
+    40% {
+        top: 300px;
+        
+    }
+    
+    45% {
+        top: 600px;
+        
+    }
+    
+    50% {
+        top: 200px;
+        
+    }
+    
+    55% {
+        top: 400px;
+        
+    }
+    
+    60% {
+        top: 20px;
+        
+    }
+}
+*/
+
+
+/*/////////////////////////////////////////////////////////////////////////////*/
+
+
+/* Animation leacon 41*/
+
+
+*{
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+div {
+    width: 100px;
+    height: 100px;
+    background: #f00;
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    -webkit-animation: moving 3s infinite ;
+    -o-animation: moving 6s infinite linear;
+    -moz-animation: moving 6s infinite linear;
+    -ms-animation: moving 6s infinite linear;
+    animation: moving 3s 2 ;
+    animation-delay: 5s;
+    animation-fill-mode: backwards
+
+}
+
+
+
+@-webkit-keyframes moving {
+    
+}
+
+
+
+
+
+@-o-keyframes moving {
+    
+}
+
+
+
+
+@-moz-keyframes moving {
+    
+}
+
+
+
+@-ms-keyframes moving {
+   
+}
+
+@keyframes moving {
+    0% {
+        top: 20px;
+        background: #f55
+    }
+    
+    25% {
+        top: 250px;
+    }
+    
+    50% {
+        top: 450px;
+    }
+    
+    100% {
+        top: 300px;
+    }
+    
+    
+}
+*/
+
+
+
+
+
+

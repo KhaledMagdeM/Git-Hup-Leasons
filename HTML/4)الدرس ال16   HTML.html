@@ -1,0 +1,114 @@
+<!DOCTYPE html> <!-- HTML الدرس ال16 تعلم لغه ال-->
+<!-- HTML تنسيق النصوص ب-->
+<html>
+   <head>
+       <!-- اساسيات كتابه مابين الهيد-->
+
+    <meta charset="utf-8">
+    <meta name="description" content="الوصف الخاص بالموقع الذي سيظهر عند البحث عنه في جوجل">
+    <title>Myegy</title> 
+    <style>
+ 
+    </style>
+    <link rel="stylesheet" href=""> 
+    <script></script>   
+    </head> 
+    <body>
+                                                          <!-- الدرس ال 16 -->
+        <div>
+            
+        <table border="1" width="500">
+            <caption>The colspan</caption>
+            <!--  colspan تستخدم لدمج الاعمده بالعرض فعندما تكتب تجعل الخليه تاخذ تحتها اكثر من عمود بالعرض  -->
+        
+            <tr>
+                <td colspan="2">programing</td>
+                <td >web design</td>
+            </tr>
+            
+            <tr>
+                <td>php</td>
+                <td>My SQl</td>
+                <td>html</td>
+            </tr>
+        </table>
+            
+            
+            <br><br><br><br>
+            
+            
+        <table border="1" width="500">
+            <caption>The Rowspan</caption>
+            <!--  rowspan  تستخدم لدمج الصفوف امام خليه واحده .. تجعل الخليه الواحده مثل خليه اسامه تاخد صفين بالطول   -->
+        
+            <tr>
+                <td >name</td>
+                <td >email</td>
+                <td>adrees</td>
+                <td>mobile</td>
+            </tr>
+            
+            <tr>
+                <td rowspan="2">osama</td>
+                 <td>@22</td>
+                 <td>asd</td>
+                 <td>012</td>
+            </tr>
+                  
+            <tr>
+                 <td>@222</td>
+                 <td>afd</td>
+                 <td>011</td>
+            </tr>
+            
+            <tr>
+                <th>ahmed</th>
+                <th>ss@222</th>
+                <th>afd</th>
+                <th>015</th>
+            </tr>
+        </table>
+            
+            <br><br><br><br>
+            
+            
+        <table border="1" width="500">
+            <caption>The colgroup</caption>
+            <!--  colgroup تستخدم وتكتب بعد التيبول وتستخدم لتحديد عواميد معينه ليتم تنسيقها   -->
+            <colgroup>
+            <col span="2" style="background: #EEE">
+            <!--  <col  span=" يكتب عدد الاعمده المراد تنسيقها">  -->    
+            <!--  ففي المثال لقد حددت اول عمودين ليتم تنسيقهم  -->
+            <!--  لا تستخدم لانها معقده ويفضل التنسيق من خلال لغه السي اس اس  -->
+            </colgroup>
+            <tr>
+                <td>programing</td>
+                 <td>programing</td>
+                <td >web design</td>
+            </tr>
+             <tr>
+                <td>php</td>
+                <td>My SQl</td>
+                <td>html</td>
+     
+            </tr>
+            <tr>
+                <td>php</td>
+                <td>My SQl</td>
+                <td>html</td>
+     
+            </tr>
+            <tr>
+                <td>php</td>
+                <td>My SQl</td>
+                <td>html</td>
+     
+            </tr>
+        </table>
+            
+        
+        
+        
+        </div>
+    </body>
+</html>

@@ -1,0 +1,21 @@
+                 /* الدرس ال 22 */
+
+.div1
+    background: red
+    width: 100px;
+    height: 100px
+    position: absolute
+    left: 120px
+    z-index: 7
+}
+.div2
+    background: blue
+    width: 100px
+    height: 100px
+    position: absolute
+    left:80px
+    z-index: 
+}
+
+
+

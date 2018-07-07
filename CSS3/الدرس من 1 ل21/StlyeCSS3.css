@@ -1,0 +1,383 @@
+/* من 1 ل21 */
+/* border - radius */
+/*
+div {
+    background: #DDD;
+    width: 100px;
+    height: 100px;
+    margin: 25px auto;
+    text-align: center;
+    overflow: hidden;
+    -webkit-border-radius:30px 100px 100px 30px;
+    -ms-border-radius:30px 100px 100px 30px;
+    border-top-right-radius: 30px 
+}
+
+*/
+
+/*///////////////////////////////////////*/
+
+/*border-sizing: border box تعلم */
+
+/*
+*{
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    
+}
+
+
+section {
+    width: 940px;
+    height: 500px;
+    margin: 20px auto;
+    background-color: #EEE;
+    overflow: hidden;
+}
+
+
+div {
+    float: left;
+    width: 235px;
+    height: 125px;
+    padding: 10px;
+    border: 2px solid #EEE
+    
+}
+
+.left1{
+    background-color:aqua
+}
+
+
+.left2{
+    background-color:blueviolet
+}
+
+
+.left3{
+    background-color:brown
+}
+
+.left4{
+    background-color:chartreuse;
+    float: left
+}
+
+*/
+
+/*//////////////////////////////////////////////////////////////////// */
+
+/*transform scale تعلم */
+/*
+*{
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+
+}
+
+.container {
+    width: 400px;
+    background: #EEE;
+    margin: 50px auto;
+    padding: 10px;
+    border: 1px solid;
+    height: 200px
+}
+
+
+
+.scale {
+    background: #080;
+    color: #FFF;
+    text-align: center;
+    height: 180px;
+    transition: all 2s ease-In-Out
+}
+ */   
+  /*  مساحه العرض 380 عشان فيه بادينج 10 بكسل يمين و10 بكسل شمال لكن النتيجه هتطلع 756 عرض لان فيه بوردر*/
+/*
+.scale:hover{
+    -webkit-transform: scale(-1,1);
+    -ms-transform: scale(2,1.5);
+    -o-transform: scale(2,1.5);
+    transform: scale(-1,1); /* يقلب العنصر وياتي بظهره*/
+/*    
+}
+*/
+
+/*//////////////////////////////////////////////////////////*/
+
+/*transform translate تعلم */
+
+/*
+
+*{
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+
+}
+
+.container {
+    width: 400px;
+    background: #EEE;
+    margin: 50px auto;
+    padding: 10px;
+    border: 1px solid;
+    height: 200px
+}
+
+
+
+.skew {
+    background: #080;
+    color: #FFF;
+    text-align: center;
+    height: 180px;
+    transition:all 1s ease-in-out;
+    
+}
+*/
+/*
+.translate:hover {
+    -webkit-transform: translate(50px,50px);
+    -ms-transform: translate(50px,50px);
+    -o-transform: translate(50px,50px);
+    transform: translate(50px,50px);   
+}
+*/
+/*
+.translate:hover {
+    -webkit-transform:  translate(50px,50px) scale(.5) rotate (-30deg);
+        
+    -ms-transform:      translate(50px,50px) scale(.5) rotate (-30deg);
+        
+    -o-transform:       translate(50px,50px) scale(.5) rotate (-30deg);
+        
+    transform: translatex(-190px) scale(.85) rotate(-30deg)
+           
+}
+*/
+
+/*//////////////////////////////////////////////////////////*/
+
+/*transform Skew تعلم */
+/*
+*{
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+
+}
+
+.container {
+    width: 400px;
+    background: #EEE;
+    margin: 50px auto;
+    padding: 10px;
+    border: 1px solid;
+    height: 200px
+}
+
+
+
+.skew {
+    background: #080;
+    color: #FFF;
+    text-align: center;
+    height: 180px;
+    transition:all 1s ease-in-out;
+    
+}
+
+
+.skew:hover {
+    -webkit-transform: skewx(30deg);
+    -ms-transform: skewx(30deg);
+    -o-transform: skewx(30deg);
+    transform: skewX(90deg)
+}
+*/
+
+/*
+.skew:hover {
+    -webkit-transform:  translate(50px,50px) scale(.5) rotate (-30deg);
+        
+    -ms-transform:      translate(50px,50px) scale(.5) rotate (-30deg);
+        
+    -o-transform:       translate(50px,50px) scale(.5) rotate (-30deg) skew(10deg,10deg);
+        
+    transform: translatex(-190px) scale(.85) rotate(-30deg) skew(10deg,90deg);
+           
+}
+*/
+
+/*//////////////////////////////////////////////////////////*/
+
+/*transform 3D Rotate x,y,z تعلم */
+
+
+/*
+*{
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+
+}
+
+.container {
+    width: 400px;
+    background: #EEE;
+    margin: 50px auto;
+    padding: 10px;
+    border: 1px solid;
+    height: 200px
+}
+
+
+
+.rotate {
+    background: #080;
+    color: #FFF;
+    text-align: center;
+    height: 180px;
+    transition:all 2s ease-in-out;
+    
+}
+
+
+.rotate:hover {
+    -webkit-transform: rotateZ();
+    -ms-transform: rotateZ();
+    -o-transform: rotateZ();
+    transform:rotate3d(50deg,50deg,50deg);
+}
+
+*/
+
+
+/*//////////////////////////////////////////////////////////*/
+
+/*transform 3D...trnaslate3d(x,y,z) تعلم */
+
+
+/*
+*{
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+
+}
+
+.container {
+    width: 400px;
+    background: #EEE;
+    margin: 50px auto;
+    padding: 2px;
+    border: 1px solid;
+    height: 200px;
+    perspective: 80px;
+}
+
+
+
+.translate {
+    width: 400px;
+    background: #080;
+    color: #FFF;
+    text-align: center;
+    height: 200px;
+    transition:all 0.5s ease-in-out;
+    
+}
+
+
+.translate:hover {
+    -webkit-transform: translate3d(0,0,20px);
+    -ms-transform: translate3d(0,0,100px);
+    -o-transform: translate3d(0,0,100px);
+    transform: translate3d(0,0,10px);
+}
+
+*/
+
+
+/*/////////////////////////////////////////////////////////////////*/
+
+/*
+
+*{
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+
+}
+
+.container {
+    width: 400px;
+    margin: 50px auto;
+    border: 1px solid;
+    height: 300px;
+    text-transform: capitalize;
+    line-height: 250px;
+    perspective: 400px;
+    transition: all 1s ease-in-out;
+    position: relative;
+    transform-style: preserve-3d;
+
+}
+
+
+
+.container:hover {
+    -webkit-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg)
+}
+
+.container > div {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    font-size: 30px;
+    color: #FFF;
+    text-align: center;
+}
+.front {
+    z-index: 2;
+    background: #F00;
+    backface-visibility: hidden;
+}
+.back {
+    z-index: 1;
+    background-color: aqua;
+    -webkit-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+    backface-visibility: hidden;
+    
+}
+
+*/
+/*///////////////////////////////////////////////////////////////////////////*/
+
+
+
+
+
+
+
+

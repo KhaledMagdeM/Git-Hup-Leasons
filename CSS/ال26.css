@@ -1,0 +1,85 @@
+                        /* selectors درس ال26 */
+                                    /*     > ((Diroct child))      */
+/*                لالغاء الخواص حتي لا تعمل عشان اكمل الدرس عملت كومنت 
+div.parent
+    background: blue;
+    width: 400px;
+    padding: 5px;
+    text-align: center;
+    text-transform: capitalize;
+    
+}
+div.parent aside
+    background-color:aqua;
+    margin: 10px;
+    padding: 5px;
+    font-weight: 900
+}
+div.parent > p
+    background-color:brown;
+    margin: 10px;
+    padding: 5px;
+    
+}
+div.parent > div
+    background-color:chocolate;
+    margin: 10px;
+    padding: 5px
+}
+div.parent aside > p
+     background-color:crimson;
+    margin: 10px;
+    padding: 5px;
+    font-weight: 900
+}
+div.parent aside> div
+     background-color:darkorchid;
+    margin: 10px;
+    padding: 5px;
+    text-align: left;
+    font-weight: 200
+}
+div.parent aside div div
+     background-color:darkgray;
+    margin: 10px;
+    padding: 5px;
+    text-align: center
+    
+}
+div.parent aside div p
+     background-color:coral;
+    margin: 10px;
+    padding: 5px;
+    text-align: left
+}
+
+*/
+                               /*       ( * )  = every thing in page  */
+/*   عملت تعليق على الخواص عشان اكمل بقيه الدرس
+
+*{
+    border:1px solid
+}
+body,head,html{border:0px}
+
+*/
+
+                /*       معناها العنصر التالي المباشر فقط  (( + ))   */
+/*
+p + div {
+    background: blue
+}
+*/
+                /*   معناها الاخوات الاشقاء اللى بعد البرجراف اللى مشتركين في نفس الاب(( ~ ))     */ 
+p ~ div 
+{
+    color:aqua
+}
+
+
+
+
+
+
+
+

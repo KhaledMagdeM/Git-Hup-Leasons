@@ -1,0 +1,84 @@
+
+
+   
+                      /* position  الدرس ال16: التحكم في اماكن العناصر  */
+*{
+    margin: 0px;
+    padding: 0px
+}
+
+body{
+    height: 3000px;
+    background: ;
+    padding-top: 0;
+    margin: 0
+    
+}
+
+.fixed{
+    background-color:aqua;
+    text-transform: capitalize;
+    color:darkblue;
+    font: normal bold 100% / 20px none;
+    position fixed;    /* يجعل العنصر ثابت على الصفحه ويتحرك اينما تحركت سواء لاعلى او لليمين او لليسار او لاسفل*/
+    position:relative;   /* يجعل العنصر ثابت على الصفحه ولا يتحرك اينما تحركت */
+    width: 350px;
+    top: 10px;             /* يمكن تحديد احد الاتجاهات الاربعه بعد كتابه البوزريشن : فيكسد*/
+    bottom 50%;            /* يمكن تحديد احد الاتجاهات الاربعه بعد كتابه البوزريشن : فيكسد*/
+    left 20px;              /* يمكن تحديد احد الاتجاهات الاربعه بعد كتابه البوزريشن : فيكسد*/
+    right 10px;            /* يمكن تحديد احد الاتجاهات الاربعه بعد كتابه البوزريشن : فيكسد*/
+    margin: 0;
+    height: 200px
+    
+    
+}
+
+.p{
+    
+    width:100px;
+    color:red;
+    font:italic bold 10px / 0px none;
+    position:absolute;
+    top:10px;
+    right: 10px;
+    background-color:blueviolet
+}
+
+
+body{
+    background: #ddd;
+    height: 2000px;
+    width: 1000px;
+    margin: 1px
+    
+}
+
+.fixed{
+    background-color:burlywood;
+    width: 300px;
+    height: 70px;
+    font-family: cursive;
+    font-size: 15px;
+    font-weight: bold;
+    position: relative;
+    text-align: center;
+    text-transform: capitalize;
+    left:180px;
+    
+    
+    
+}
+.p{
+    background-color:aqua;
+    width: 50px;
+    font-family: fantasy;
+    font-size: 10px;
+    font-weight: 400;
+    position: absolute;
+    top:5px;
+    right: 5px;
+    text-align: center;
+    margin: 0px
+}
+
+

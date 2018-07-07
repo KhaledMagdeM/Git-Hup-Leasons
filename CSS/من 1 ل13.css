@@ -1,0 +1,232 @@
+
+
+{
+    /* خواص الديف نفسه */
+    /* Div properties */
+
+}
+
+{    
+    /* خواص الكلام */ 
+    /* Text properties */
+    
+    color: blue; /* Text color */
+    
+    direction: ltr; /* رغم اتجاه الصفحه من اليمين الي اليسار لكن الجمله اتجاه كتابتها من اليسار الي اليمين   */
+    /* Text direction اتجاه الكلام او الصفحه بمعني اذا كانت الصفحه باللغه العربيه فاتجاه الكلام من اليمين للشمال وانا عاوز اخلي جمله معينه من الشمال لليمين والعكس لو الصفحه انجليزي وانا عاوز اخلي جمله تبقي اتجاه اليمين   */
+    
+    letter-spacing:1px; /* space between letters المسافات بين الحروف  */
+    
+    line-height: 40px;  /* line height ارتفاع الخط الفاصل بين الاسطر .كلما زاد كلما زادت المسافه بين السطور  */
+    
+    text-align: left; /* text align محاذاه الكلام   */
+    
+    text-decoration:none; /* text decoration:overline\underline\none\line-through لوضع خط تحت الكلام او فوق الكلام او الغاء الخط  */
+    
+    text-indent:px; /* text indent لترك مسافه قبل بدايه الجمله كالخطاب   */
+    
+
+
+
+
+
+    text-transform:lowercase;/* text trnsform:capitalizeلجعل اول حرف من كل كلمه كابيتال \uppercase لجعل كل الحروف كابيتال\lowercase لجعل كل الحروف small  */
+    
+    white-space: normal;/* white-space:normal وهو الوضع الافتراضي بحيث يلتزم الكلام بالمسااحه المحدده له\nowrap لايلتزم الكلام بالمساحه المحدده له ويخرج عنه  */
+    
+    word-spacing: 30px;
+    word-spacing: normal
+}
+
+
+
+                                       /* Font الدرس ال7 */
+
+{
+    font-family:monospace;
+    font-style:italic;
+    font-size: x-large;
+    font-weight: normal;
+        
+   /* font:font-style  font-weight  font-size / line-height / font-fmaily الكود المختصر لكل اكواد الفونت*/
+    
+    font:italic bold 2em / 40px monospace;
+    
+}
+
+
+
+
+                                        /* links الدرس ال8 */
+
+
+{
+    text-transform: capitalize;
+    color:darkslateblue;
+    text-decoration:none;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 12px;
+    font-family: cursive;
+    letter-spacing: 20px;
+    word-spacing: 20px;
+    
+}
+            /* يمكن ان يطبق على الخواص المكتوبه للينك او لاي كلام فتظهر الخواص المكتوبه به عند الوقوف عليه بالماوس hover ال */
+
+:hover{
+    text-transform: lowercase
+    color:aqua
+    text-decoration: underline
+    font-style: normal
+    font-weight: normal
+    font-size: 10px
+    font-family: monospace
+    letter-spacing: 10px
+    word-spacing: 10px
+    
+    /* يمكن ان يطبق على الخواص المكتوبه للينك او لاي كلام فتظهر الخواص المكتوبه به عند الضغط عليه بالماوس  active ال */
+}
+:active{
+     text-transform: capitalize      /*; ملحوظه مسحتها عشان الخواص متتفعلش على الصفحه */
+    color:darkslateblue
+    text-decoration:none
+    font-style: italic
+    font-weight: bold
+    font-size: 12px
+    font-family: cursive
+    letter-spacing: 20px
+    word-spacing: 20px
+}
+
+
+
+
+                                            /* lists الدرس ال9 */
+
+
+{
+    list-style-type: disc; /* هي القيمه الافتراضيه وهي النقط المدوره السوداء disc */
+                            /* هي الارقام  decimal */
+ /* لتغيير النقط التى بجانب الكلام يمكن التغيير من نقط سوداء لارقام او لقيم اخري   type ال */
+
+    list-style-position:;
+/* لجعل النقط بداخل المحتوي او داخل الحدود او بخارج الحدود   position ال */
+    
+    list-style-image:url();
+/* لوضع صوره خارجيه لشكل نقطه اخر غير المتاح ف البرنامج    image ال */
+    
+    
+       /* list-style:type  position  image الكود المختصر لكل اكواد الفونت*/
+
+    list-style:disc outside url()
+     /* يشترط الكتابه بالترتيب ولكن لا يشترط كتابه الثلات خواص يمكن كتابه خاصيه او اثنان منهم */
+}
+
+
+
+                                        /* مراجعه على ماسبق */
+
+{
+    font-family: cursive
+    font-style:italic
+    font-size: 18px
+    font-weight: bold
+    text-decoration: underline
+    text-indent: 40px
+    text-transform: capitalize
+    text-align: center
+    color: brown
+    letter-spacing: 5px
+    border-width: 1px
+    border-color: blue
+    border-style: none
+    background-image: url(pes2018.jpg)
+    background-repeat:no-repeat
+}
+hove{
+    font-family: monospace;
+    font-style:normal;
+    font-size: 10px;
+    font-weight: normal;
+    text-decoration: none;
+    text-indent:0px;
+    text-transform: none;
+    text-align: justify;
+    color: blue;
+    letter-spacing: 0px;
+    
+}
+
+
+
+
+                                            /* border الدرس ال11 */
+
+{
+    border-width:5px 10px 20px 30px 
+        /*top width:5px right width:10px bootom width:20px left width:30px */
+    border-width:10px
+        /*top width:10px right width:10px bootom width:10px left width:10px */
+    border-style:solid
+        /*top style:solid right style:solid bootom style:solid left style:solid */
+    border-color: cadetblue
+        /*top color: cadetblue right color: cadetblue bootom color: cadetblue left color: cadetblue */
+        /* اي خاصيه يمكن ان تاخد 4 قيم فاذا تم كتابه قيمه واحده فتطبق على الاربع جوانب فوق..يمين..تحت..شمال*/
+    border-left
+    border-right
+    border-top
+    border-bottom
+       /* يمكن تحديد جانب واحد فقط ونطبق عليه الخواص*/
+        /* يمكن كتابه جانب واحد او اثنين او ثلاثه ونطبق عليهم الخواص*/
+}
+
+
+
+                                    /* Margin  الدرس ال12: الهوامش الخارجيه */
+            /* هوامش خارجيه خارج العنصر وخارج الجدول .. المسافات مثلا بين جدولين او المسافات بين الجدول والصفحه */
+
+*{                                        /*لالغاء الهوامش من الصفحه */
+    margin: 0px;
+    padding: 0px
+}
+
+
+di{
+    border:1px solid blue;
+    margin: ; /*هي ايضا تاخد 4 قيم فيمكن كتابه قيمه واحده فتطبق على الاربع جوانب او نكتب قيمتين او ثلاثه او اربعه */
+     /* نكتب هذه الخاصيه في حاله اننا نريد ان تطبق القيمه على جميع الجوانب*/
+    
+    
+    
+    margin-left: 10px; /* يمكن تحديد جانب واحد فقط ونطبق عليه الخواص*/
+    margin-top: 30px;
+    /* يمكن تحديد جانب معين واحد او اثنين او ثلاثه ونطبق عليهم الخواص مثل المثال السابق وباقي الجوانب التي لم تكتب لم يتم تنفيذ الخواص عليها */
+     /* نستخدم ونحدد احد الجوانب عندما نريد ان نطبق الخاصيه عليه فقط*/
+    
+    
+    margin:auto;    /* تستخدم لالغاء الهوامش في الاعلى وفي الاسفل وتجعل الجانب الايمن والايسر لهم نفس المساحه ف الهامش*/
+    
+    margin:10px auto 0;  
+    /* هكذا اصبح هناك هامش في الاعلى ..في الاسفل الهوامش صفر .. الهوامش مقسمه على الجانب الايمين والايسر*/ 
+    
+    margin: -  /* يستطيع اخذ قيم بالسالب*/
+    /* يمكن استخدام هذه الخاصيه في التصميم او تصليح شئ*/
+    
+}
+
+
+
+
+
+                              /* padding  الدرس ال13: الهوامش الداخليه */
+                            /* يتم عمل هوامش الداخليه للعنصر نفسه سواء كان له خلفيه او داخل جدول او داخل حدود */
+
+di{
+    border:1px solid blue;
+    width:200px;
+    padding:20px 30px 10px 20px 
+        /* لا يستطيع اخذ قيم بالسالب*/
+}
+
+

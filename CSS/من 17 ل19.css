@@ -1,0 +1,63 @@
+body{
+   
+    height: 1000px;
+    
+    margin: 0px;
+    padding: 0px;
+    border: 1px solid 
+}
+.left,.Wellcome,.rigth{
+    background-color:blue;
+    width: 120px;
+    margin: 2px;
+    padding: 10px;
+    float: left;
+    text-transform: capitalize;
+    text-align: center
+}
+
+.clear{
+    clear: both
+}
+
+
+.Wellcome,.HELLOW{
+    width: 350px;
+    position: relative;
+    left: 553px;
+    float: none
+}
+
+.HELLOW{
+    background-color: dimgray;
+    width: 250px;
+    font-size:30px;
+    left: 20px;
+    text-indent: 10px;
+    text-transform: capitalize  
+}
+
+.rigth,.hi{
+    float: right
+}
+
+.le{position: relative;
+    right: 500px
+}
+
+span{
+    float: right;
+    position: relative;
+    right: 10px
+}
+
+
+.main{
+    background-color: forestgreen;
+    width:500px
+}
+.main p{
+    color:red
+}
+
+

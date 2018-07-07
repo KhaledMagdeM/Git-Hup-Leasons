@@ -1,0 +1,32 @@
+/* do any propertis for first letter only */
+p.wellcome::first-letter{
+    color:darkblue;
+    background-color: darkgrey;
+    padding: 0px 30px ;
+    margin: 0 5px 0 0;
+    display: block;
+    font-size: 250%;
+    border-radius: 30px
+}
+
+p{
+    font-size: 50px;
+    text-transform: capitalize;
+    position: relative;
+    left: 400px;
+    color: black
+}
+
+p.mypage{
+    left:465px;
+    background-color:darkgrey;
+    width: 450px;
+    text-align: center
+        
+}
+
+/* do any propertis for first line only */
+
+P::first-line{
+    
+}

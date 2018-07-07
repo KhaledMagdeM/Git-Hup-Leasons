@@ -1,0 +1,188 @@
+/* الدرس من 23*/
+
+
+/* background-size */
+/*
+
+*{
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+div {
+    width: 80%;
+    height: 200px;
+    background-image: url(https://thedma.org/wp-content/uploads/digital-collaboration.jpg);
+    background-size: cover
+}
+
+*/
+/*/////////////////////////////////////////////////////////////////////////*/
+
+/* background-clip */
+/*
+*{
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+div {
+    width: 200px;
+    height: 200px;
+
+    padding: 30px;
+    border: 10px dotted #00f;
+   
+    background-clip: content-box;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+*/
+
+/*/////////////////////////////////////////////////////////////////////////*/
+
+/*flex-box */
+
+*{
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/* الخواص الخاصه بالاب  */
+
+.container {
+    width: 500px;
+    height: 400px;
+    margin: 50px auto;
+    background: #EEE;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.container div{
+    background-color: chocolate;
+    height: 100px;
+    padding: 10px;
+    color: #FFf;
+    align-self:center
+ 
+    
+}
+
+.container div:first-of-type {
+    background-color: blue;
+    order:1;
+    flex-basis: 200px;
+    
+
+}
+
+.container div:nth-of-type(2) {
+    background-color: aqua;
+    order: 2;
+ 
+}
+
+.container div:nth-of-type(3) {
+    background-color: chartreuse;
+    order: 3;
+    
+}
+
+*/
+
+/*////////////////////////////////////////////////////////////////////*/
+
+/* transition */
+/*
+* {
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+
+}
+
+
+div {
+    width: 100px;
+    height: 100px;
+    background: #F55;
+    margin: 20px 100px;
+    transition: all 2s ease-in-out;
+    
+}
+
+
+
+div:hover {
+    width: 200px;
+    margin: 50px 200px;
+}
+*/
+
+
+/*////////////////////////////////////////////////////////////////////*/
+
+/* transition-property | transition-duration | transition-time function | transition-delay |  */
+/*
+* {
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+
+}
+
+
+div {
+    width: 500px;
+    margin: 20px 100px;
+    
+
+    
+}
+
+
+div p {
+    background: #f64;
+    margin-bottom: 15px;
+    color: #FFF;
+    width: 120px;
+    padding: 10px;
+    transition-property: all;
+    transition-duration: 3s;
+    
+}
+
+
+
+div p:hover {
+    width: 400px;
+    background: #00f
+}
+
+*/
+
+
+
+
+
+
+
+
+

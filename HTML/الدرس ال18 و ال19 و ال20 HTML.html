@@ -1,0 +1,76 @@
+<!doctype html> 
+<html>
+   <head>
+       <!-- اساسيات كتابه مابين الهيد-->
+
+    <meta charset="utf-8">
+    <meta name="description" content="الوصف الخاص بالموقع الذي سيظهر عند البحث عنه في جوجل">
+    <title>Myegy</title> 
+
+    <style>
+     
+    </style>
+    <link rel="stylesheet" href=""> 
+    <script></script>   
+    </head> 
+    <body>
+                                                          <!-- الدرس ال 18 و19 و 20 -->
+        <!-- form نهتم هنا فقط لمعرفه كيفيه تصميم ال  -->
+        <form>
+            <label>Username</label>
+                <!-- هو الاسم الذي سيظهر قبل مربع الادخال  -->
+            <input type="text" placeholder="type your name" maxlength="15">
+                <!-- type="text" هو المربع الذي سنكتب به الاسم  -->
+                <!-- عندما نكتب هذه الخاصيه فيظهر ف المربع اكتب اسمك وتختفي عندما نكتب الاسم placeholder  -->
+                <!-- تستخدم لجعل اقصي عدد للحروف هو 15 maxlength  -->
+
+             <br><br> 
+            <label>password</label>
+            <input type="password" placeholder="type your password">
+                 <!-- type="password" هو نوع من انواع الادخال وهو المربع الذي سنكتب به كلمه السر وتكون غير مرئيه  -->
+                <!-- عندما نكتب هذه الخاصيه فيظهر ف المربع اكتب كلمه السر وتختفي عندما نكتب كلمه السر placeholder  -->
+
+                <br>
+            <input type="checkbox">
+                 <!-- type="checkbox" هو نوع من انواع الادخال وهو المربع ألصغير عندما نضغط عليه فيحفظ المتصفح البيانات المكتوبه  -->
+            <label>Remember me</label>
+                <br>
+            <input type="submit" value="send">
+                 <!-- type="submit" هو نوع من انواع الادخال وهو المربع الذي عندما نضغط عليه يقوم بارسال البيانات او تسجيل الدخول   -->
+                <!-- value="send" نقوم بتغيير اسم مربع الارسال عن طريق هذه الخاصيه باي اسم نريده-->
+            <br>
+
+             <input type="reset">
+            
+                <br>
+
+            <label>email</label>    
+            <input required type="text">  
+            
+                <br><br>
+
+            <select name="time">
+                <optgroup label="time">
+                    <option>now</option>
+                    <option selected>tomorrow</option>
+                    <option>now</option>
+                </optgroup>
+                
+                <optgroup label="time">
+                    <option>now</option>
+                    <option selected>tomorrow</option>
+                    <option>now</option>
+                </optgroup>
+            </select>
+            
+            <br><br>
+            
+            <input type="radio" name="browser" value="chrome">chrome
+            <input type="radio" name="browser" value="chrome">chrome
+            <input type="radio" name="browser" value="chrome">chrome
+            <input type="radio" name="browser" value="chrome">chrome
+            <br><br>
+            <textarea rows="5" cols="20">your massege is</textarea>
+        </form>
+    </body>
+</html>

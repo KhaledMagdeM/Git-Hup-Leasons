@@ -1,0 +1,30 @@
+/* Table-example*/
+
+
+
+.example table {
+    margin:40px auto; 
+    text-align: center; 
+    border: 1px solid; 
+    width: 600px; 
+    font-weight: bolder; 
+}
+
+.example table caption {
+    padding: 20px; 
+    font-size: 25px; 
+    color: blue; 
+}
+
+.example table tr td {
+    border: 1px solid black; 
+    padding: 10px 13px; 
+    font-size: 20px
+}
+
+.example table thead {color: #1cce5b;}
+
+.example table tbody {color: #b1b319;}
+
+.example table tfoot {color: #178e8b;}
+
