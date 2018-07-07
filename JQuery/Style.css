@@ -1,0 +1,243 @@
+* {
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/*
+span, p {
+    
+    display: none;
+   
+
+}
+
+
+
+p {
+    display: none
+}
+
+span {
+    display: block
+}
+
+
+*/
+
+/*
+div {
+    margin: 10px auto;
+    background: #EEE;
+    border: 1px solid #CCC;
+    padding: 10px;
+    
+}
+
+button {
+    margin: 10px
+}
+
+
+span {
+    display: block;
+    opacity: 0;
+    
+}
+
+
+span:hover {
+    
+}
+*/
+
+/*الدرس السابع */
+/*  
+div {
+    width: 300px;
+    height: 50px;
+    background: #EEE;
+    border: 1px solid #CCC;
+    padding: 15px;
+    position: absolute;
+    top: -300px;
+    left: 300px
+    
+}
+
+span {
+    color: #F00;
+    font-weight: bold;
+    display: none;
+    
+}
+*/
+
+/*الدرس التامن  */
+
+/*
+div {
+    width: 300px;
+    height: 50px;
+    background: #EEE;
+    border: 1px solid #CCC;
+    padding: 15px;
+
+}
+*/
+
+
+/*الدرس التاسع */
+
+/*
+div {
+    background-color: #DDD;
+    width: 300px;
+    height: 200px;
+    padding: 10px;
+    position: absolute
+}
+*/
+
+
+/*الدرس العاشر */
+
+/*
+div {
+    background-color: #DDD;
+    width: 300px;
+    height: 200px;
+    padding: 10px;
+    color: rebeccapurple
+}
+*/
+
+/*
+input[type="text"] {
+    width: 400px;
+    padding: 10px
+}
+////////////////////////////////
+
+
+/*الدرس 15 */
+
+/*
+.hi {
+    background: #CCC;
+    color: brown;
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+}
+
+*/
+
+
+/*
+.cont {
+    width: 800px;
+    background-color: darkgray;
+    margin: auto;
+    overflow: hidden
+}
+
+
+.left {
+	float: left;
+    width: 500px;
+    background-color: blueviolet
+}
+
+.cont .rigth {
+    float: right;
+    width: 280px;
+    background-color: blueviolet
+
+}
+*/
+
+/*
+
+div {
+    width: 300px;
+    background-color: darkgray;
+    margin: auto;
+ 
+}
+
+*/
+
+
+
+/* الدرس 37 */ 
+/*
+body {
+    height: 3000px;
+    width: 5000px
+}
+
+div .test {
+    background-color: gray;
+    width: 100px;
+    height: 100px;
+    margin: 50px auto
+}
+
+
+
+a > .ShowUP {
+    position: fixed;
+    right: 10px;
+    bottom:10px;
+    background-color: royalblue;
+    border-radius: 50%;
+    padding: 5px;
+    display: none
+   
+}
+*/
+/*
+body {
+    height: 3000px
+}
+div {
+    background-color: royalblue;
+    position: absolute;
+    top: 300px;
+}
+*/
+
+
+
+/*الدرس ال 47*/
+/*
+
+div {
+    display: inline
+}
+
+
+.Save {
+    
+	display: none
+}
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

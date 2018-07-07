@@ -1,0 +1,243 @@
+/* Start Global */
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    
+}
+
+.clearfix {
+    clear: both
+}
+
+ul {
+    list-style: none
+}
+
+/* End Global */
+
+/*/////////////////////////////////////////////////////////*/
+
+/* Start main */
+.main {
+    background-color: #333;
+    color: #DDD;
+    padding:  20px;
+    text-align: center;
+}
+
+/* End main */
+
+
+/*/////////////////////////////////////////////////////////*/
+
+/* Start Nav */
+
+
+nav {
+   background: #DDD; 
+}
+
+nav ul {
+    padding: 25px;
+    text-align: center;
+}
+
+
+nav ul li{
+    display: inline-block
+}
+
+nav ul li:after {
+    content: " |";
+}
+
+nav ul li:last-child:after {
+    content: "";
+}
+
+
+/* ENd Nav */
+
+/*/////////////////////////////////////////////////////////*/
+
+/* Start MAin */
+
+
+main {
+    background: #EEE;
+    padding: 20px
+}
+
+
+main p {
+    text-align: center
+}
+
+main p mark {
+    background-color: blue
+}
+
+/* ENd Main */
+
+
+/*/////////////////////////////////////////////////////////*/
+
+/* Star Article */
+
+.post {
+    width: 70%;
+    float: left
+}
+
+.post article {
+   
+    background: #f6f6f6;
+    border: 1px solid #ccc;
+    margin: 20px
+}
+
+.post article header {
+    background: #E2E2E2;
+    padding: 10px
+}
+
+.post article section {
+ 
+    padding: 10px
+}
+
+article details, ul {
+    margin-top: 10px;
+    margin-bottom: 10px
+    
+}
+
+article details ul {
+    margin-left: 10px
+    
+}
+
+.post article .long {
+    width: 200px
+}
+
+
+
+.post article section  code {
+    background: #FFF;
+    padding: 1px;
+    display: block;
+    margin: 10px 0;
+    border: 1px solid #CCC;
+    max-width: 500px
+}
+
+
+article section .imagecats {
+    background: #FFF;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #CCC;
+    text-align: center
+}
+
+article section .imagecats img {
+    border: 1px solid #CCC;
+    padding: 3px;
+    background: #FFF
+}
+
+img[title="My Cat2"], img[title="My Cat3"]{
+    margin-right: 0
+}
+
+.images {
+    margin-top: 7px
+}
+
+/* End Article */
+
+
+/*/////////////////////////////////////////////////////////*/
+
+
+/* Start aside */
+
+
+aside { 
+    width: 30%;
+    float: right
+}
+
+aside section {
+    background: #EEE;
+    margin: 20px auto;
+    text-transform: capitalize;
+    border: 1px solid #CCC;
+    margin-bottom: 15px;
+
+    
+}
+
+aside section h3 {
+    background: #D1D1D1;
+    padding-left: 5px;
+    margin-bottom: 5px;
+    padding-bottom: 5px
+    
+}
+
+aside section ul {
+    line-height: 1.8;
+    padding-left: 5px
+}
+
+
+ section.meters {
+    margin-top: 0
+}
+
+
+
+section.meters div {
+    margin-top: 10px;
+    padding-left: 5px;
+    margin-bottom: 10px
+   
+}
+
+
+aside section .browsers {
+    margin: 12px 7px;
+}
+
+/* ENd aside */
+
+
+/*/////////////////////////////////////////////////////////*/
+
+/* Star Footer */
+
+
+
+footer {
+    text-align: center;
+    border: 1px solid;
+    background: #333;
+    color: #DDD
+    
+}
+
+/* End Footer */
+
+
+
+
+
+
+
+

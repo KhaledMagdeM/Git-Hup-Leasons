@@ -1,0 +1,282 @@
+<!DOCTYPE html>           
+<html lang="en">
+   <head>
+       
+        <!-- Main Meta Rules -->
+        <meta charset="UTF-8" />
+        <meta name="description" content="">
+       
+        <!-- End Meta Rules -->
+       
+        <title>learn HTML5</title>
+         
+       
+        <!-- Start Main css style file -->
+       
+        <link 
+              rel  = "stylesheet" 
+              href = "style.css" >
+        
+        <!-- End Main css style file -->     
+       
+       
+       <!--html 5 لتعريف المتصفحات القديمه على عناصر -->
+       
+       <!--[if lt IE 9]> 
+
+       <script src="html5shiv.min.js"></script>
+
+       <![endif]--> <!-- في حاله ان المتصفح اقل من 9 شغل الكود -->
+
+    </head> 
+    <body>
+                                        <!-- 8,9,10,11,12 الدرس ال -->
+        
+    <!-- Start Header -->
+        <header class="main">
+            <h1>HTML5 Course</h1>
+        </header>
+    <!-- End Header -->
+        
+   
+        
+    <!-- Start Nav -->   
+        
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    <!-- End Nav -->   
+        
+       
+        
+    <!-- Start Main -->    
+    <!-- يكتب لمره واحده ولا يتكرر كبقيه العناصر  -->  
+        
+        <main>
+            <p><mark>Welcome</mark></p>
+        </main>
+        
+    <!-- Start Main -->    
+    
+        
+        
+    <!-- Start Article -->   
+        <div class="post">
+            <!-- Start Article 1 -->
+            <article>
+                <header>
+                    <h3>Article About Using &lt;Progress&gt;</h3>
+                    <p> writen by <span>Khaled Magde</span></p>
+                </header>
+                <section>
+                    <p>This atricle is number 1</p>
+                    <div>
+                        <!-- progress ألدرس ال10 -->
+                        Design: <progress value="70" max="100"></progress> <br>
+                        Coding: <progress value="65" max="100"></progress> <br>
+                    </div>
+                </section>
+            </article>
+            <!-- End Article 1-->
+            
+            
+            <!-- Start Article 2 -->
+            <article>
+                <header>
+                    <h3>Article About Using &lt;Details&gt;</h3>
+                    <p> writen by <span>Khaled Magde</span></p>
+                </header>
+                <section>
+                    <p>This atricle is number 2</p>
+                    <p>
+                        <details open>   <!--  الدرس 11  -->
+                            <summary>Reference</summary>
+                            <ul> 
+                                <li>REf 1</li>
+                                <li>REf 2</li>
+                                <li>REf 3</li>
+                            </ul>
+                        </details>
+                    </p>
+                </section>
+            </article>
+            <!-- End Article 2-->
+            
+            
+            <!-- Start Article 3 -->
+            <article>
+                <header>
+                    <h3>Article About Using &lt;Wbr&gt;</h3>
+                    <p> writen by <span>Khaled Magde</span></p>
+                </header>
+                <section>
+                    <p>This atricle is number 3</p>
+                    <div class="long">
+                        https://developer.mozilla<wbr>.org/ar/docs/Web/JavaScript
+                    </div>
+                </section>
+            </article>
+            <!-- End Article 3-->
+            
+            
+            <!-- Start Article 4 -->
+            <article>
+                <header>
+                    <h3>Article About Using Code Inside &lt;Figure&gt;</h3>
+                    <p> writen by <span>Khaled Magde</span></p>
+                </header>
+                <section>
+                    <p>This is code Describe The Div Syntax</p>
+                    <figure>
+                        <code>
+                            &lt;div&gt; This is Normal Syntax For Div &lt;/div&gt;
+                        </code>
+                        <figcaption>This Div Syntax 1 - 3</figcaption>
+                    </figure>    
+                </section>
+            </article>
+            <!-- End Article 4-->
+            
+            
+            <!-- Start Article 5 -->
+            <article>
+                <header>
+                    <h3>Article About Using Image Inside &lt;Figure&gt;</h3>
+                    <p> writen by <span>Khaled Magde</span></p>
+                </header>
+                <section>
+                    <p>This is code Describe The Image</p>
+                    <figure class="imagecats">
+                        <img src    =   "download.jpeg"
+                             alt    =   "Cat"
+                             title  =   "My Cat1"/>
+                        
+                        <img src    =   "download.jpeg"
+                             alt    =   "Cat"
+                             title  =   "My Cat2"/>
+                        
+                        <img src    =   "download.jpeg"
+                             alt    =   "Cat"
+                             title  =   "My Cat3"/>
+                        <figcaption class="images">Cat figure 2 - 3</figcaption>
+                    </figure>    
+                </section>
+            </article>
+            <!-- End Article 5-->
+        </div> 
+        
+    <!-- End Article -->    
+     
+        
+        
+    <!-- Start Sidebar --> 
+        
+        <aside>
+            <section class="links">
+                <h3>Main</h3>
+                <ul>
+                    <li>intro</li>
+                    <li>semanties</li>
+                    <li>api</li>
+                    <li>new</li>
+                </ul>
+            </section>
+        </aside>
+        
+        <aside>
+            <section class="meters">
+                <h3>Performance</h3>
+                <div>
+                    Cpu: <meter 
+                                min    = "0" 
+                                max    = "1" 
+                                value  = "0.6"
+                                low    = "0.5"
+                                high   = "0.8"  
+                                optium = "0.5"> <!-- امثل نسبه -->
+                         </meter>
+                </div>
+            </section>
+            
+            <!--      الدرس ال 14      --> 
+            
+            <section class="poll">  
+                <h3>What Is Your Best Browser</h3>
+                <form class="browsers">
+                    <input list="browser" />
+                    <datalist id="browser">
+                        <option value="Chrome">
+                        <option value="Opera">
+                        <option value="Safari">
+                        <option value="Fire Fox">
+                    </datalist>
+                    <input type="submit" value="Choose" />
+                </form>
+            </section>
+            
+            <!--      الدرس ال 14      --> 
+            
+            <section class="calculate">  
+                <h3>Calculate Your Age in Days</h3>
+                <form oninput="result.value = parseInt (age.value) * (days.value) + ' ' + ' ' + 'Days'">
+                    <input type="text" name="age"/>
+                    <input type="hidden" name="days" value="365"/>
+                    <output name="result"></output>
+                </form>
+            </section>
+        </aside>
+        
+        <aside>
+         <input type="file" multiple>
+            
+        
+        </aside>
+        
+    <!-- End Sidebar -->
+        
+        
+        <div class="clearfix"></div>
+     
+        
+    <!-- Start Footer -->
+        
+        <footer>
+             Copyrigth 2018 &copy; 
+        </footer>
+            
+    <!-- End Footer -->    
+        
+        
+        
+        
+        
+    </body>
+</html> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
